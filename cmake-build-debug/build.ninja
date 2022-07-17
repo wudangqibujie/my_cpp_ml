@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: untitled
+# Project: AMG
 # Configurations: Debug
 # =============================================================================
 
@@ -39,183 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/untitled/cmake-build-debug/
-
-#############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\untitled\cmake-build-debug && "D:\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build edit_cache: phony CMakeFiles/edit_cache.util
-
-# =============================================================================
-# Object build statements for EXECUTABLE target untitled
-
-
-#############################################
-# Order-only phony target for untitled
-
-build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
-
-build CMakeFiles/untitled.dir/main.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/main.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
-
-build CMakeFiles/untitled.dir/ANN/ANN.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/ANN/ANN.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\ANN\ANN.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\ANN
-
-build CMakeFiles/untitled.dir/Cost/Cost.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/Cost/Cost.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\Cost\Cost.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\Cost
-
-build CMakeFiles/untitled.dir/Data/Data.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/Data/Data.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\Data\Data.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\Data
-
-build CMakeFiles/untitled.dir/HiddenLayer/HiddenLayer.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/HiddenLayer/HiddenLayer.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\HiddenLayer\HiddenLayer.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\HiddenLayer
-
-build CMakeFiles/untitled.dir/LinAlg/LinAlg.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/LinAlg/LinAlg.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\LinAlg\LinAlg.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\LinAlg
-
-build CMakeFiles/untitled.dir/OutputLayer/OutputLayer.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/OutputLayer/OutputLayer.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\OutputLayer\OutputLayer.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\OutputLayer
-
-build CMakeFiles/untitled.dir/Regularization/Reg.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/Regularization/Reg.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\Regularization\Reg.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\Regularization
-
-build CMakeFiles/untitled.dir/SoftmaxNet/SoftmaxNet.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/SoftmaxNet/SoftmaxNet.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\SoftmaxNet\SoftmaxNet.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\SoftmaxNet
-
-build CMakeFiles/untitled.dir/Stat/Stat.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/Stat/Stat.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\Stat\Stat.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\Stat
-
-build CMakeFiles/untitled.dir/Utilities/Utilities.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/Utilities/Utilities.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\Utilities\Utilities.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\Utilities
-
-build CMakeFiles/untitled.dir/Activation/Activation.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/Activation/Activation.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\Activation\Activation.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\Activation
-
-build CMakeFiles/untitled.dir/AutoEncoder/AutoEncoder.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/AutoEncoder/AutoEncoder.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\AutoEncoder\AutoEncoder.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\AutoEncoder
-
-build CMakeFiles/untitled.dir/Convolutions/Convolutions.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/Convolutions/Convolutions.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\Convolutions\Convolutions.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\Convolutions
-
-build CMakeFiles/untitled.dir/Transforms/Transforms.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/Transforms/Transforms.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\Transforms\Transforms.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\Transforms
-
-build CMakeFiles/untitled.dir/DualSVC/DualSVC.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/DualSVC/DualSVC.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\DualSVC\DualSVC.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\DualSVC
-
-build CMakeFiles/untitled.dir/LinReg/LinReg.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/LinReg/LinReg.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\LinReg\LinReg.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\LinReg
-
-build CMakeFiles/untitled.dir/KMeans/KMeans.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/KMeans/KMeans.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\KMeans\KMeans.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\KMeans
-
-build CMakeFiles/untitled.dir/kNN/kNN.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/kNN/kNN.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\kNN\kNN.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\kNN
-
-build CMakeFiles/untitled.dir/MLP/MLP.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/MLP/MLP.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\MLP\MLP.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\MLP
-
-build CMakeFiles/untitled.dir/PCA/PCA.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/PCA/PCA.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\PCA\PCA.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\PCA
-
-build CMakeFiles/untitled.dir/SVC/SVC.cpp.obj: CXX_COMPILER__untitled_Debug D$:/untitled/SVC/SVC.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\SVC\SVC.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\SVC
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target untitled
-
-
-#############################################
-# Link the executable untitled.exe
-
-build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.cpp.obj CMakeFiles/untitled.dir/ANN/ANN.cpp.obj CMakeFiles/untitled.dir/Cost/Cost.cpp.obj CMakeFiles/untitled.dir/Data/Data.cpp.obj CMakeFiles/untitled.dir/HiddenLayer/HiddenLayer.cpp.obj CMakeFiles/untitled.dir/LinAlg/LinAlg.cpp.obj CMakeFiles/untitled.dir/OutputLayer/OutputLayer.cpp.obj CMakeFiles/untitled.dir/Regularization/Reg.cpp.obj CMakeFiles/untitled.dir/SoftmaxNet/SoftmaxNet.cpp.obj CMakeFiles/untitled.dir/Stat/Stat.cpp.obj CMakeFiles/untitled.dir/Utilities/Utilities.cpp.obj CMakeFiles/untitled.dir/Activation/Activation.cpp.obj CMakeFiles/untitled.dir/AutoEncoder/AutoEncoder.cpp.obj CMakeFiles/untitled.dir/Convolutions/Convolutions.cpp.obj CMakeFiles/untitled.dir/Transforms/Transforms.cpp.obj CMakeFiles/untitled.dir/DualSVC/DualSVC.cpp.obj CMakeFiles/untitled.dir/LinReg/LinReg.cpp.obj CMakeFiles/untitled.dir/KMeans/KMeans.cpp.obj CMakeFiles/untitled.dir/kNN/kNN.cpp.obj CMakeFiles/untitled.dir/MLP/MLP.cpp.obj CMakeFiles/untitled.dir/PCA/PCA.cpp.obj CMakeFiles/untitled.dir/SVC/SVC.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = untitled.exe
-  TARGET_IMPLIB = libuntitled.dll.a
-  TARGET_PDB = untitled.exe.dbg
-
+cmake_ninja_workdir = D$:/my_cpp_ml/cmake-build-debug/
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\untitled\cmake-build-debug && "D:\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\untitled -BD:\untitled\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D D:\my_cpp_ml\cmake-build-debug && "D:\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\my_cpp_ml -BD:\my_cpp_ml\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -223,9 +53,53 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target bmw
+
+
+#############################################
+# Order-only phony target for bmw
+
+build cmake_object_order_depends_target_bmw: phony || CMakeFiles/bmw.dir
+
+build CMakeFiles/bmw.dir/mit.cpp.obj: CXX_COMPILER__bmw_Debug D$:/my_cpp_ml/mit.cpp || cmake_object_order_depends_target_bmw
+  DEP_FILE = CMakeFiles\bmw.dir\mit.cpp.obj.d
+  FLAGS = -g -std=gnu++17
+  OBJECT_DIR = CMakeFiles\bmw.dir
+  OBJECT_FILE_DIR = CMakeFiles\bmw.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bmw
+
+
+#############################################
+# Link the executable bmw.exe
+
+build bmw.exe: CXX_EXECUTABLE_LINKER__bmw_Debug CMakeFiles/bmw.dir/mit.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\bmw.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bmw.exe
+  TARGET_IMPLIB = libbmw.dll.a
+  TARGET_PDB = bmw.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\my_cpp_ml\cmake-build-debug && "D:\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+# =============================================================================
 # Target aliases.
 
-build untitled: phony untitled.exe
+build bmw: phony bmw.exe
 
 # =============================================================================
 # Folder targets.
@@ -233,9 +107,9 @@ build untitled: phony untitled.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/untitled/cmake-build-debug
+# Folder: D:/my_cpp_ml/cmake-build-debug
 
-build all: phony untitled.exe
+build all: phony bmw.exe
 
 # =============================================================================
 # Built-in targets
