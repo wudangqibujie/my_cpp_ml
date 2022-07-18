@@ -1,4 +1,4 @@
-"D:\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/CLion 2021.3.3/bin/ninja/win/ninja.exe" -G Ninja D:\my_cpp_ml
+"D:\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S D:\CPP_project\my_cpp_ml -B D:\CPP_project\my_cpp_ml\cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/my_cpp_ml/cmake-build-debug
+-- Build files have been written to: D:/CPP_project/my_cpp_ml/cmake-build-debug

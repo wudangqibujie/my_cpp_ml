@@ -25,9 +25,15 @@ public:
     DataSet loadData(std::string  filename);
     void initWeight(int length);
     std::vector<float> oneSampleGradient(std::vector<float> feature, int label);
-
+    void train(DataSet* dataset, std::string gdType);
+    std::vector<float> getWeight();
+    int predict(std::vector<float> feature);
+    float predict_proba(std::vector<float> feature);
+    float score(DataSet* dataset);
+private:
+    int maxIter_;
+    float learnRate;
+    float tol_;
+    std::vector<float> weight;
 };
-
-
-
 #endif //AMG_LOGISTICREGRESSION_H
